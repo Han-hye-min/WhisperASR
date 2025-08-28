@@ -1,0 +1,28 @@
+# Python 캐시/임시파일
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# 가상환경
+mina_env/
+venv/
+.venv/
+
+# IDE/에디터 설정
+.vscode/
+.idea/
+
+# 테스트/빌드 아웃풋
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# OS 기본 생성 파일
+.DS_Store
+Thumbs.db
