@@ -1,0 +1,16 @@
+-r requirements.txt
+
+# --- PyTorch (Colab GPU 환경) ---
+torch==2.3.0
+torchaudio==2.3.0
+
+# --- HuggingFace + Audio ---
+transformers>=4.41.2
+huggingface_hub>=0.23.2
+librosa==0.10.2
+
+# --- Progress bar ---
+tqdm>=4.66.4
+
+# --- For exposing FastAPI server ---
+pyngrok

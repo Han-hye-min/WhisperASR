@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# --- Local 개발 편의 ---
+watchdog        # 파일 변경 감지
+python-dotenv   # .env 환경 변수 관리
